@@ -1,0 +1,882 @@
+Bit Position,Bit description,Bit Type
+0 ,>= 4 H,Hierarchic Element Count
+1 ,>= 8 H,Hierarchic Element Count
+2 ,>= 16 H,Hierarchic Element Count
+3 ,>= 32 H,Hierarchic Element Count
+4 ,>= 1 Li,Hierarchic Element Count
+5 ,>= 2 Li,Hierarchic Element Count
+6 ,>= 1 B,Hierarchic Element Count
+7 ,>= 2 B,Hierarchic Element Count
+8 ,>= 4 B,Hierarchic Element Count
+9 ,>= 2 C,Hierarchic Element Count
+10, >= 4 C,Hierarchic Element Count
+11, >= 8 C,Hierarchic Element Count
+12, >= 16 C,Hierarchic Element Count
+13, >= 32 C,Hierarchic Element Count
+14, >= 1 N,Hierarchic Element Count
+15, >= 2 N,Hierarchic Element Count
+16, >= 4 N,Hierarchic Element Count
+17, >= 8 N,Hierarchic Element Count
+18, >= 1 O,Hierarchic Element Count
+19, >= 2 O,Hierarchic Element Count
+20, >= 4 O,Hierarchic Element Count
+21, >= 8 O,Hierarchic Element Count
+22, >= 16 O,Hierarchic Element Count
+23, >= 1 F,Hierarchic Element Count
+24, >= 2 F,Hierarchic Element Count
+25, >= 4 F,Hierarchic Element Count
+26, >= 1 Na,Hierarchic Element Count
+27, >= 2 Na,Hierarchic Element Count
+28, >= 1 Si,Hierarchic Element Count
+29, >= 2 Si,Hierarchic Element Count
+30, >= 1 P,Hierarchic Element Count
+31, >= 2 P,Hierarchic Element Count
+32, >= 4 P,Hierarchic Element Count
+33, >= 1 S,Hierarchic Element Count
+34, >= 2 S,Hierarchic Element Count
+35, >= 4 S,Hierarchic Element Count
+36, >= 8 S,Hierarchic Element Count
+37, >= 1 Cl,Hierarchic Element Count
+38, >= 2 Cl,Hierarchic Element Count
+39, >= 4 Cl,Hierarchic Element Count
+40, >= 8 Cl,Hierarchic Element Count
+41, >= 1 K,Hierarchic Element Count
+42, >= 2 K,Hierarchic Element Count
+43, >= 1 Br,Hierarchic Element Count
+44, >= 2 Br,Hierarchic Element Count
+45, >= 4 Br,Hierarchic Element Count
+46, >= 1 I,Hierarchic Element Count
+47, >= 2 I,Hierarchic Element Count
+48, >= 4 I,Hierarchic Element Count
+49, >= 1 Be,Hierarchic Element Count
+50, >= 1 Mg,Hierarchic Element Count
+51, >= 1 Al,Hierarchic Element Count
+52, >= 1 Ca,Hierarchic Element Count
+53, >= 1 Sc,Hierarchic Element Count
+54, >= 1 Ti,Hierarchic Element Count
+55, >= 1 V,Hierarchic Element Count
+56, >= 1 Cr,Hierarchic Element Count
+57, >= 1 Mn,Hierarchic Element Count
+58, >= 1 Fe,Hierarchic Element Count
+59, >= 1 Co,Hierarchic Element Count
+60, >= 1 Ni,Hierarchic Element Count
+61, >= 1 Cu,Hierarchic Element Count
+62, >= 1 Zn,Hierarchic Element Count
+63, >= 1 Ga,Hierarchic Element Count
+64, >= 1 Ge,Hierarchic Element Count
+65, >= 1 As,Hierarchic Element Count
+66, >= 1 Se,Hierarchic Element Count
+67, >= 1 Kr,Hierarchic Element Count
+68, >= 1 Rb,Hierarchic Element Count
+69, >= 1 Sr,Hierarchic Element Count
+70, >= 1 Y,Hierarchic Element Count
+71, >= 1 Zr,Hierarchic Element Count
+72, >= 1 Nb,Hierarchic Element Count
+73, >= 1 Mo,Hierarchic Element Count
+74, >= 1 Ru,Hierarchic Element Count
+75, >= 1 Rh,Hierarchic Element Count
+76, >= 1 Pd,Hierarchic Element Count
+77, >= 1 Ag,Hierarchic Element Count
+78, >= 1 Cd,Hierarchic Element Count
+79, >= 1 In,Hierarchic Element Count
+80, >= 1 Sn,Hierarchic Element Count
+81, >= 1 Sb,Hierarchic Element Count
+82, >= 1 Te,Hierarchic Element Count
+83, >= 1 Xe,Hierarchic Element Count
+84, >= 1 Cs,Hierarchic Element Count
+85, >= 1 Ba,Hierarchic Element Count
+86, >= 1 Lu,Hierarchic Element Count
+87, >= 1 Hf,Hierarchic Element Count
+88, >= 1 Ta,Hierarchic Element Count
+89, >= 1 W,Hierarchic Element Count
+90, >= 1 Re,Hierarchic Element Count
+91, >= 1 Os,Hierarchic Element Count
+92, >= 1 Ir,Hierarchic Element Count
+93, >= 1 Pt,Hierarchic Element Count
+94, >= 1 Au,Hierarchic Element Count
+95, >= 1 Hg,Hierarchic Element Count
+96, >= 1 Tl,Hierarchic Element Count
+97, >= 1 Pb,Hierarchic Element Count
+98, >= 1 Bi,Hierarchic Element Count
+99, >= 1 La,Hierarchic Element Count
+100,>= 1 Ce,Hierarchic Element Count
+101,>= 1 Pr,Hierarchic Element Count
+102,>= 1 Nd,Hierarchic Element Count
+103,>= 1 Pm,Hierarchic Element Count
+104,>= 1 Sm,Hierarchic Element Count
+105,>= 1 Eu,Hierarchic Element Count
+106,>= 1 Gd,Hierarchic Element Count
+107,>= 1 Tb,Hierarchic Element Count
+108,>= 1 Dy,Hierarchic Element Count
+109,>= 1 Ho,Hierarchic Element Count
+110,>= 1 Er,Hierarchic Element Count
+111,>= 1 Tm,Hierarchic Element Count
+112,>= 1 Yb,Hierarchic Element Count
+113,>= 1 Tc,Hierarchic Element Count
+114,>= 1 U,Hierarchic Element Count
+115,>= 1 any ring size 3,Rings in a Canonic Extended Smallest Set of Rings
+116,>= 1 saturated or aromatic carbon-only ring size 3,Rings in a Canonic Extended Smallest Set of Rings
+117,>= 1 saturated or aromatic nitrogen-containing ring size 3,Rings in a Canonic Extended Smallest Set of Rings
+118,>= 1 saturated or aromatic heteroatom-containing ring size 3,Rings in a Canonic Extended Smallest Set of Rings
+119,>= 1 unsaturated non-aromatic carbon-only ring size 3,Rings in a Canonic Extended Smallest Set of Rings
+120,>= 1 unsaturated non-aromatic nitrogen-containing ring size 3,Rings in a Canonic Extended Smallest Set of Rings
+121,>= 1 unsaturated non-aromatic heteroatom-containing ring size 3,Rings in a Canonic Extended Smallest Set of Rings
+122,>= 2 any ring size 3,Rings in a Canonic Extended Smallest Set of Rings
+123,>= 2 saturated or aromatic carbon-only ring size 3,Rings in a Canonic Extended Smallest Set of Rings
+124,>= 2 saturated or aromatic nitrogen-containing ring size 3,Rings in a Canonic Extended Smallest Set of Rings
+125,>= 2 saturated or aromatic heteroatom-containing ring size 3,Rings in a Canonic Extended Smallest Set of Rings
+126,>= 2 unsaturated non-aromatic carbon-only ring size 3,Rings in a Canonic Extended Smallest Set of Rings
+127,>= 2 unsaturated non-aromatic nitrogen-containing ring size 3,Rings in a Canonic Extended Smallest Set of Rings
+128,>= 2 unsaturated non-aromatic heteroatom-containing ring size 3,Rings in a Canonic Extended Smallest Set of Rings
+129,>= 1 any ring size 4,Rings in a Canonic Extended Smallest Set of Rings
+130,>= 1 saturated or aromatic carbon-only ring size 4,Rings in a Canonic Extended Smallest Set of Rings
+131,>= 1 saturated or aromatic nitrogen-containing ring size 4,Rings in a Canonic Extended Smallest Set of Rings
+132,>= 1 saturated or aromatic heteroatom-containing ring size 4,Rings in a Canonic Extended Smallest Set of Rings
+133,>= 1 unsaturated non-aromatic carbon-only ring size 4,Rings in a Canonic Extended Smallest Set of Rings
+134,>= 1 unsaturated non-aromatic nitrogen-containing ring size 4,Rings in a Canonic Extended Smallest Set of Rings
+135,>= 1 unsaturated non-aromatic heteroatom-containing ring size 4,Rings in a Canonic Extended Smallest Set of Rings
+136,>= 2 any ring size 4,Rings in a Canonic Extended Smallest Set of Rings
+137,>= 2 saturated or aromatic carbon-only ring size 4,Rings in a Canonic Extended Smallest Set of Rings
+138,>= 2 saturated or aromatic nitrogen-containing ring size 4,Rings in a Canonic Extended Smallest Set of Rings
+139,>= 2 saturated or aromatic heteroatom-containing ring size 4,Rings in a Canonic Extended Smallest Set of Rings
+140,>= 2 unsaturated non-aromatic carbon-only ring size 4,Rings in a Canonic Extended Smallest Set of Rings
+141,>= 2 unsaturated non-aromatic nitrogen-containing ring size 4,Rings in a Canonic Extended Smallest Set of Rings
+142,>= 2 unsaturated non-aromatic heteroatom-containing ring size 4,Rings in a Canonic Extended Smallest Set of Rings
+143,>= 1 any ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+144,>= 1 saturated or aromatic carbon-only ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+145,>= 1 saturated or aromatic nitrogen-containing ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+146,>= 1 saturated or aromatic heteroatom-containing ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+147,>= 1 unsaturated non-aromatic carbon-only ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+148,>= 1 unsaturated non-aromatic nitrogen-containing ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+149,>= 1 unsaturated non-aromatic heteroatom-containing ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+150,>= 2 any ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+151,>= 2 saturated or aromatic carbon-only ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+152,>= 2 saturated or aromatic nitrogen-containing ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+153,>= 2 saturated or aromatic heteroatom-containing ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+154,>= 2 unsaturated non-aromatic carbon-only ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+155,>= 2 unsaturated non-aromatic nitrogen-containing ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+156,>= 2 unsaturated non-aromatic heteroatom-containing ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+157,>= 3 any ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+158,>= 3 saturated or aromatic carbon-only ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+159,>= 3 saturated or aromatic nitrogen-containing ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+160,>= 3 saturated or aromatic heteroatom-containing ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+161,>= 3 unsaturated non-aromatic carbon-only ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+162,>= 3 unsaturated non-aromatic nitrogen-containing ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+163,>= 3 unsaturated non-aromatic heteroatom-containing ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+164,>= 4 any ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+165,>= 4 saturated or aromatic carbon-only ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+166,>= 4 saturated or aromatic nitrogen-containing ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+167,>= 4 saturated or aromatic heteroatom-containing ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+168,>= 4 unsaturated non-aromatic carbon-only ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+169,>= 4 unsaturated non-aromatic nitrogen-containing ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+170,>= 4 unsaturated non-aromatic heteroatom-containing ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+171,>= 5 any ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+172,>= 5 saturated or aromatic carbon-only ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+173,>= 5 saturated or aromatic nitrogen-containing ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+174,>= 5 saturated or aromatic heteroatom-containing ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+175,>= 5 unsaturated non-aromatic carbon-only ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+176,>= 5 unsaturated non-aromatic nitrogen-containing ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+177,>= 5 unsaturated non-aromatic heteroatom-containing ring size 5,Rings in a Canonic Extended Smallest Set of Rings
+178,>= 1 any ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+179,>= 1 saturated or aromatic carbon-only ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+180,>= 1 saturated or aromatic nitrogen-containing ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+181,>= 1 saturated or aromatic heteroatom-containing ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+182,>= 1 unsaturated non-aromatic carbon-only ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+183,>= 1 unsaturated non-aromatic nitrogen-containing ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+184,>= 1 unsaturated non-aromatic heteroatom-containing ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+185,>= 2 any ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+186,>= 2 saturated or aromatic carbon-only ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+187,>= 2 saturated or aromatic nitrogen-containing ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+188,>= 2 saturated or aromatic heteroatom-containing ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+189,>= 2 unsaturated non-aromatic carbon-only ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+190,>= 2 unsaturated non-aromatic nitrogen-containing ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+191,>= 2 unsaturated non-aromatic heteroatom-containing ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+192,>= 3 any ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+193,>= 3 saturated or aromatic carbon-only ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+194,>= 3 saturated or aromatic nitrogen-containing ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+195,>= 3 saturated or aromatic heteroatom-containing ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+196,>= 3 unsaturated non-aromatic carbon-only ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+197,>= 3 unsaturated non-aromatic nitrogen-containing ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+198,>= 3 unsaturated non-aromatic heteroatom-containing ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+199,>= 4 any ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+200,>= 4 saturated or aromatic carbon-only ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+201,>= 4 saturated or aromatic nitrogen-containing ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+202,>= 4 saturated or aromatic heteroatom-containing ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+203,>= 4 unsaturated non-aromatic carbon-only ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+204,>= 4 unsaturated non-aromatic nitrogen-containing ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+205,>= 4 unsaturated non-aromatic heteroatom-containing ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+206,>= 5 any ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+207,>= 5 saturated or aromatic carbon-only ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+208,>= 5 saturated or aromatic nitrogen-containing ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+209,>= 5 saturated or aromatic heteroatom-containing ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+210,>= 5 unsaturated non-aromatic carbon-only ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+211,>= 5 unsaturated non-aromatic nitrogen-containing ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+212,>= 5 unsaturated non-aromatic heteroatom-containing ring size 6,Rings in a Canonic Extended Smallest Set of Rings
+213,>= 1 any ring size 7,Rings in a Canonic Extended Smallest Set of Rings
+214,>= 1 saturated or aromatic carbon-only ring size 7,Rings in a Canonic Extended Smallest Set of Rings
+215,>= 1 saturated or aromatic nitrogen-containing ring size 7,Rings in a Canonic Extended Smallest Set of Rings
+216,>= 1 saturated or aromatic heteroatom-containing ring size 7,Rings in a Canonic Extended Smallest Set of Rings
+217,>= 1 unsaturated non-aromatic carbon-only ring size 7,Rings in a Canonic Extended Smallest Set of Rings
+218,>= 1 unsaturated non-aromatic nitrogen-containing ring size 7,Rings in a Canonic Extended Smallest Set of Rings
+219,>= 1 unsaturated non-aromatic heteroatom-containing ring size 7,Rings in a Canonic Extended Smallest Set of Rings
+220,>= 2 any ring size 7,Rings in a Canonic Extended Smallest Set of Rings
+221,>= 2 saturated or aromatic carbon-only ring size 7,Rings in a Canonic Extended Smallest Set of Rings
+222,>= 2 saturated or aromatic nitrogen-containing ring size 7,Rings in a Canonic Extended Smallest Set of Rings
+223,>= 2 saturated or aromatic heteroatom-containing ring size 7,Rings in a Canonic Extended Smallest Set of Rings
+224,>= 2 unsaturated non-aromatic carbon-only ring size 7,Rings in a Canonic Extended Smallest Set of Rings
+225,>= 2 unsaturated non-aromatic nitrogen-containing ring size 7,Rings in a Canonic Extended Smallest Set of Rings
+226,>= 2 unsaturated non-aromatic heteroatom-containing ring size 7,Rings in a Canonic Extended Smallest Set of Rings
+227,>= 1 any ring size 8,Rings in a Canonic Extended Smallest Set of Rings
+228,>= 1 saturated or aromatic carbon-only ring size 8,Rings in a Canonic Extended Smallest Set of Rings
+229,>= 1 saturated or aromatic nitrogen-containing ring size 8,Rings in a Canonic Extended Smallest Set of Rings
+230,>= 1 saturated or aromatic heteroatom-containing ring size 8,Rings in a Canonic Extended Smallest Set of Rings
+231,>= 1 unsaturated non-aromatic carbon-only ring size 8,Rings in a Canonic Extended Smallest Set of Rings
+232,>= 1 unsaturated non-aromatic nitrogen-containing ring size 8,Rings in a Canonic Extended Smallest Set of Rings
+233,>= 1 unsaturated non-aromatic heteroatom-containing ring size 8,Rings in a Canonic Extended Smallest Set of Rings
+234,>= 2 any ring size 8,Rings in a Canonic Extended Smallest Set of Rings
+235,>= 2 saturated or aromatic carbon-only ring size 8,Rings in a Canonic Extended Smallest Set of Rings
+236,>= 2 saturated or aromatic nitrogen-containing ring size 8,Rings in a Canonic Extended Smallest Set of Rings
+237,>= 2 saturated or aromatic heteroatom-containing ring size 8,Rings in a Canonic Extended Smallest Set of Rings
+238,>= 2 unsaturated non-aromatic carbon-only ring size 8,Rings in a Canonic Extended Smallest Set of Rings
+239,>= 2 unsaturated non-aromatic nitrogen-containing ring size 8,Rings in a Canonic Extended Smallest Set of Rings
+240,>= 2 unsaturated non-aromatic heteroatom-containing ring size 8,Rings in a Canonic Extended Smallest Set of Rings
+241,>= 1 any ring size 9,Rings in a Canonic Extended Smallest Set of Rings
+242,>= 1 saturated or aromatic carbon-only ring size 9,Rings in a Canonic Extended Smallest Set of Rings
+243,>= 1 saturated or aromatic nitrogen-containing ring size 9,Rings in a Canonic Extended Smallest Set of Rings
+244,>= 1 saturated or aromatic heteroatom-containing ring size 9,Rings in a Canonic Extended Smallest Set of Rings
+245,>= 1 unsaturated non-aromatic carbon-only ring size 9,Rings in a Canonic Extended Smallest Set of Rings
+246,>= 1 unsaturated non-aromatic nitrogen-containing ring size 9,Rings in a Canonic Extended Smallest Set of Rings
+247,>= 1 unsaturated non-aromatic heteroatom-containing ring size 9,Rings in a Canonic Extended Smallest Set of Rings
+248,>= 1 any ring size 10,Rings in a Canonic Extended Smallest Set of Rings
+249,>= 1 saturated or aromatic carbon-only ring size 10,Rings in a Canonic Extended Smallest Set of Rings
+250,>= 1 saturated or aromatic nitrogen-containing ring size 10,Rings in a Canonic Extended Smallest Set of Rings
+251,>= 1 saturated or aromatic heteroatom-containing ring size 10,Rings in a Canonic Extended Smallest Set of Rings
+252,>= 1 unsaturated non-aromatic carbon-only ring size 10,Rings in a Canonic Extended Smallest Set of Rings
+253,>= 1 unsaturated non-aromatic nitrogen-containing ring size 10,Rings in a Canonic Extended Smallest Set of Rings
+254,>= 1 unsaturated non-aromatic heteroatom-containing ring size 10,Rings in a Canonic Extended Smallest Set of Rings
+255,>= 1 aromatic ring,Rings in a Canonic Extended Smallest Set of Rings
+256,>= 1 hetero-aromatic ring,Rings in a Canonic Extended Smallest Set of Rings
+257,>= 2 aromatic rings,Rings in a Canonic Extended Smallest Set of Rings
+258,>= 2 hetero-aromatic rings,Rings in a Canonic Extended Smallest Set of Rings
+259,>= 3 aromatic rings,Rings in a Canonic Extended Smallest Set of Rings
+260,>= 3 hetero-aromatic rings,Rings in a Canonic Extended Smallest Set of Rings
+261,>= 4 aromatic rings,Rings in a Canonic Extended Smallest Set of Rings
+262,>= 4 hetero-aromatic rings,Rings in a Canonic Extended Smallest Set of Rings
+263,Li-H,Simple Atom Pairs
+264,Li-Li,Simple Atom Pairs
+265,Li-B,Simple Atom Pairs
+266,Li-C,Simple Atom Pairs
+267,Li-O,Simple Atom Pairs
+268,Li-F,Simple Atom Pairs
+269,Li-P,Simple Atom Pairs
+270,Li-S,Simple Atom Pairs
+271,Li-Cl,Simple Atom Pairs
+272,B-H,Simple Atom Pairs
+273,B-B,Simple Atom Pairs
+274,B-C,Simple Atom Pairs
+275,B-N,Simple Atom Pairs
+276,B-O,Simple Atom Pairs
+277,B-F,Simple Atom Pairs
+278,B-Si,Simple Atom Pairs
+279,B-P,Simple Atom Pairs
+280,B-S,Simple Atom Pairs
+281,B-Cl,Simple Atom Pairs
+282,B-Br,Simple Atom Pairs
+283,C-H,Simple Atom Pairs
+284,C-C,Simple Atom Pairs
+285,C-N,Simple Atom Pairs
+286,C-O,Simple Atom Pairs
+287,C-F,Simple Atom Pairs
+288,C-Na,Simple Atom Pairs
+289,C-Mg,Simple Atom Pairs
+290,C-Al,Simple Atom Pairs
+291,C-Si,Simple Atom Pairs
+292,C-P,Simple Atom Pairs
+293,C-S,Simple Atom Pairs
+294,C-Cl,Simple Atom Pairs
+295,C-As,Simple Atom Pairs
+296,C-Se,Simple Atom Pairs
+297,C-Br,Simple Atom Pairs
+298,C-I,Simple Atom Pairs
+299,N-H,Simple Atom Pairs
+300,N-N,Simple Atom Pairs
+301,N-O,Simple Atom Pairs
+302,N-F,Simple Atom Pairs
+303,N-Si,Simple Atom Pairs
+304,N-P,Simple Atom Pairs
+305,N-S,Simple Atom Pairs
+306,N-Cl,Simple Atom Pairs
+307,N-Br,Simple Atom Pairs
+308,O-H,Simple Atom Pairs
+309,O-O,Simple Atom Pairs
+310,O-Mg,Simple Atom Pairs
+311,O-Na,Simple Atom Pairs
+312,O-Al,Simple Atom Pairs
+313,O-Si,Simple Atom Pairs
+314,O-P,Simple Atom Pairs
+315,O-K,Simple Atom Pairs
+316,F-P,Simple Atom Pairs
+317,F-S,Simple Atom Pairs
+318,Al-H,Simple Atom Pairs
+319,Al-Cl,Simple Atom Pairs
+320,Si-H,Simple Atom Pairs
+321,Si-Si,Simple Atom Pairs
+322,Si-Cl,Simple Atom Pairs
+323,P-H,Simple Atom Pairs
+324,P-P,Simple Atom Pairs
+325,As-H,Simple Atom Pairs
+326,As-As,Simple Atom Pairs
+327,C(~Br)(~C),Simple Atom Nearest Neighbors
+328,C(~Br)(~C)(~C),Simple Atom Nearest Neighbors
+329,C(~Br)(~H),Simple Atom Nearest Neighbors
+330,C(~Br)(:C),Simple Atom Nearest Neighbors
+331,C(~Br)(:N),Simple Atom Nearest Neighbors
+332,C(~C)(~C),Simple Atom Nearest Neighbors
+333,C(~C)(~C)(~C),Simple Atom Nearest Neighbors
+334,C(~C)(~C)(~C)(~C),Simple Atom Nearest Neighbors
+335,C(~C)(~C)(~C)(~H),Simple Atom Nearest Neighbors
+336,C(~C)(~C)(~C)(~N),Simple Atom Nearest Neighbors
+337,C(~C)(~C)(~C)(~O),Simple Atom Nearest Neighbors
+338,C(~C)(~C)(~H)(~N),Simple Atom Nearest Neighbors
+339,C(~C)(~C)(~H)(~O),Simple Atom Nearest Neighbors
+340,C(~C)(~C)(~N),Simple Atom Nearest Neighbors
+341,C(~C)(~C)(~O),Simple Atom Nearest Neighbors
+342,C(~C)(~Cl),Simple Atom Nearest Neighbors
+343,C(~C)(~Cl)(~H),Simple Atom Nearest Neighbors
+344,C(~C)(~H),Simple Atom Nearest Neighbors
+345,C(~C)(~H)(~N),Simple Atom Nearest Neighbors
+346,C(~C)(~H)(~O),Simple Atom Nearest Neighbors
+347,C(~C)(~H)(~O)(~O),Simple Atom Nearest Neighbors
+348,C(~C)(~H)(~P),Simple Atom Nearest Neighbors
+349,C(~C)(~H)(~S),Simple Atom Nearest Neighbors
+350,C(~C)(~I),Simple Atom Nearest Neighbors
+351,C(~C)(~N),Simple Atom Nearest Neighbors
+352,C(~C)(~O),Simple Atom Nearest Neighbors
+353,C(~C)(~S),Simple Atom Nearest Neighbors
+354,C(~C)(~Si),Simple Atom Nearest Neighbors
+355,C(~C)(:C),Simple Atom Nearest Neighbors
+356,C(~C)(:C)(:C),Simple Atom Nearest Neighbors
+357,C(~C)(:C)(:N),Simple Atom Nearest Neighbors
+358,C(~C)(:N),Simple Atom Nearest Neighbors
+359,C(~C)(:N)(:N),Simple Atom Nearest Neighbors
+360,C(~Cl)(~Cl),Simple Atom Nearest Neighbors
+361,C(~Cl)(~H),Simple Atom Nearest Neighbors
+362,C(~Cl)(:C),Simple Atom Nearest Neighbors
+363,C(~F)(~F),Simple Atom Nearest Neighbors
+364,C(~F)(:C),Simple Atom Nearest Neighbors
+365,C(~H)(~N),Simple Atom Nearest Neighbors
+366,C(~H)(~O),Simple Atom Nearest Neighbors
+367,C(~H)(~O)(~O),Simple Atom Nearest Neighbors
+368,C(~H)(~S),Simple Atom Nearest Neighbors
+369,C(~H)(~Si),Simple Atom Nearest Neighbors
+370,C(~H)(:C),Simple Atom Nearest Neighbors
+371,C(~H)(:C)(:C),Simple Atom Nearest Neighbors
+372,C(~H)(:C)(:N),Simple Atom Nearest Neighbors
+373,C(~H)(:N),Simple Atom Nearest Neighbors
+374,C(~H)(~H)(~H),Simple Atom Nearest Neighbors
+375,C(~N)(~N),Simple Atom Nearest Neighbors
+376,C(~N)(:C),Simple Atom Nearest Neighbors
+377,C(~N)(:C)(:C),Simple Atom Nearest Neighbors
+378,C(~N)(:C)(:N),Simple Atom Nearest Neighbors
+379,C(~N)(:N),Simple Atom Nearest Neighbors
+380,C(~O)(~O),Simple Atom Nearest Neighbors
+381,C(~O)(:C),Simple Atom Nearest Neighbors
+382,C(~O)(:C)(:C),Simple Atom Nearest Neighbors
+383,C(~S)(:C),Simple Atom Nearest Neighbors
+384,C(:C)(:C),Simple Atom Nearest Neighbors
+385,C(:C)(:C)(:C),Simple Atom Nearest Neighbors
+386,C(:C)(:C)(:N),Simple Atom Nearest Neighbors
+387,C(:C)(:N),Simple Atom Nearest Neighbors
+388,C(:C)(:N)(:N),Simple Atom Nearest Neighbors
+389,C(:N)(:N),Simple Atom Nearest Neighbors
+390,N(~C)(~C),Simple Atom Nearest Neighbors
+391,N(~C)(~C)(~C),Simple Atom Nearest Neighbors
+392,N(~C)(~C)(~H),Simple Atom Nearest Neighbors
+393,N(~C)(~H),Simple Atom Nearest Neighbors
+394,N(~C)(~H)(~N),Simple Atom Nearest Neighbors
+395,N(~C)(~O),Simple Atom Nearest Neighbors
+396,N(~C)(:C),Simple Atom Nearest Neighbors
+397,N(~C)(:C)(:C),Simple Atom Nearest Neighbors
+398,N(~H)(~N),Simple Atom Nearest Neighbors
+399,N(~H)(:C),Simple Atom Nearest Neighbors
+400,N(~H)(:C)(:C),Simple Atom Nearest Neighbors
+401,N(~O)(~O),Simple Atom Nearest Neighbors
+402,N(~O)(:O),Simple Atom Nearest Neighbors
+403,N(:C)(:C),Simple Atom Nearest Neighbors
+404,N(:C)(:C)(:C),Simple Atom Nearest Neighbors
+405,O(~C)(~C),Simple Atom Nearest Neighbors
+406,O(~C)(~H),Simple Atom Nearest Neighbors
+407,O(~C)(~P),Simple Atom Nearest Neighbors
+408,O(~H)(~S),Simple Atom Nearest Neighbors
+409,O(:C)(:C),Simple Atom Nearest Neighbors
+410,P(~C)(~C),Simple Atom Nearest Neighbors
+411,P(~O)(~O),Simple Atom Nearest Neighbors
+412,S(~C)(~C),Simple Atom Nearest Neighbors
+413,S(~C)(~H),Simple Atom Nearest Neighbors
+414,S(~C)(~O),Simple Atom Nearest Neighbors
+415,Si(~C)(~C),Simple Atom Nearest Neighbors
+416,C=C,Detailed Atom Neighborhoods
+417,C#C,Detailed Atom Neighborhoods
+418,C=N,Detailed Atom Neighborhoods
+419,C#N,Detailed Atom Neighborhoods
+420,C=O,Detailed Atom Neighborhoods
+421,C=S,Detailed Atom Neighborhoods
+422,N=N,Detailed Atom Neighborhoods
+423,N=O,Detailed Atom Neighborhoods
+424,N=P,Detailed Atom Neighborhoods
+425,P=O,Detailed Atom Neighborhoods
+426,P=P,Detailed Atom Neighborhoods
+427,C(#C)(-C),Detailed Atom Neighborhoods
+428,C(#C)(-H),Detailed Atom Neighborhoods
+429,C(#N)(-C),Detailed Atom Neighborhoods
+430,C(-C)(-C)(=C),Detailed Atom Neighborhoods
+431,C(-C)(-C)(=N),Detailed Atom Neighborhoods
+432,C(-C)(-C)(=O),Detailed Atom Neighborhoods
+433,C(-C)(-Cl)(=O),Detailed Atom Neighborhoods
+434,C(-C)(-H)(=C),Detailed Atom Neighborhoods
+435,C(-C)(-H)(=N),Detailed Atom Neighborhoods
+436,C(-C)(-H)(=O),Detailed Atom Neighborhoods
+437,C(-C)(-N)(=C),Detailed Atom Neighborhoods
+438,C(-C)(-N)(=N),Detailed Atom Neighborhoods
+439,C(-C)(-N)(=O),Detailed Atom Neighborhoods
+440,C(-C)(-O)(=O),Detailed Atom Neighborhoods
+441,C(-C)(=C),Detailed Atom Neighborhoods
+442,C(-C)(=N),Detailed Atom Neighborhoods
+443,C(-C)(=O),Detailed Atom Neighborhoods
+444,C(-Cl)(=O),Detailed Atom Neighborhoods
+445,C(-H)(-N)(=C),Detailed Atom Neighborhoods
+446,C(-H)(=C),Detailed Atom Neighborhoods
+447,C(-H)(=N),Detailed Atom Neighborhoods
+448,C(-H)(=O),Detailed Atom Neighborhoods
+449,C(-N)(=C),Detailed Atom Neighborhoods
+450,C(-N)(=N),Detailed Atom Neighborhoods
+451,C(-N)(=O),Detailed Atom Neighborhoods
+452,C(-O)(=O),Detailed Atom Neighborhoods
+453,N(-C)(=C),Detailed Atom Neighborhoods
+454,N(-C)(=O),Detailed Atom Neighborhoods
+455,N(-O)(=O),Detailed Atom Neighborhoods
+456,P(-O)(=O),Detailed Atom Neighborhoods
+457,S(-C)(=O),Detailed Atom Neighborhoods
+458,S(-O)(=O),Detailed Atom Neighborhoods
+459,S(=O)(=O),Detailed Atom Neighborhoods
+460,C-C-C#C,Simple SMARTS Patterns
+461,O-C-C=N,Simple SMARTS Patterns
+462,O-C-C=O,Simple SMARTS Patterns
+463,N:C-S-[#1],Simple SMARTS Patterns
+464,N-C-C=C,Simple SMARTS Patterns
+465,O=S-C-C,Simple SMARTS Patterns
+466,N#C-C=C,Simple SMARTS Patterns
+467,C=N-N-C,Simple SMARTS Patterns
+468,O=S-C-N,Simple SMARTS Patterns
+469,S-S-C:C,Simple SMARTS Patterns
+470,C:C-C=C,Simple SMARTS Patterns
+471,S:C:C:C,Simple SMARTS Patterns
+472,C:N:C-C,Simple SMARTS Patterns
+473,S-C:N:C,Simple SMARTS Patterns
+474,S:C:C:N,Simple SMARTS Patterns
+475,S-C=N-C,Simple SMARTS Patterns
+476,C-O-C=C,Simple SMARTS Patterns
+477,N-N-C:C,Simple SMARTS Patterns
+478,S-C=N-[#1],Simple SMARTS Patterns
+479,S-C-S-C,Simple SMARTS Patterns
+480,C:S:C-C,Simple SMARTS Patterns
+481,O-S-C:C,Simple SMARTS Patterns
+482,C:N-C:C,Simple SMARTS Patterns
+483,N-S-C:C,Simple SMARTS Patterns
+484,N-C:N:C,Simple SMARTS Patterns
+485,N:C:C:N,Simple SMARTS Patterns
+486,N-C:N:N,Simple SMARTS Patterns
+487,N-C=N-C,Simple SMARTS Patterns
+488,N-C=N-[#1],Simple SMARTS Patterns
+489,N-C-S-C,Simple SMARTS Patterns
+490,C-C-C=C,Simple SMARTS Patterns
+491,C-N:C-[#1],Simple SMARTS Patterns
+492,N-C:O:C,Simple SMARTS Patterns
+493,O=C-C:C,Simple SMARTS Patterns
+494,O=C-C:N,Simple SMARTS Patterns
+495,C-N-C:C,Simple SMARTS Patterns
+496,N:N-C-[#1],Simple SMARTS Patterns
+497,O-C:C:N,Simple SMARTS Patterns
+498,O-C=C-C,Simple SMARTS Patterns
+499,N-C:C:N,Simple SMARTS Patterns
+500,C-S-C:C,Simple SMARTS Patterns
+501,Cl-C:C-C,Simple SMARTS Patterns
+502,N-C=C-[#1],Simple SMARTS Patterns
+503,Cl-C:C-[#1],Simple SMARTS Patterns
+504,N:C:N-C,Simple SMARTS Patterns
+505,Cl-C:C-O,Simple SMARTS Patterns
+506,C-C:N:C,Simple SMARTS Patterns
+507,C-C-S-C,Simple SMARTS Patterns
+508,S=C-N-C,Simple SMARTS Patterns
+509,Br-C:C-C,Simple SMARTS Patterns
+510,[#1]-N-N-[#1],Simple SMARTS Patterns
+511,S=C-N-[#1],Simple SMARTS Patterns
+512,C-[As]-O-[#1],Simple SMARTS Patterns
+513,S:C:C-[#1],Simple SMARTS Patterns
+514,O-N-C-C,Simple SMARTS Patterns
+515,N-N-C-C,Simple SMARTS Patterns
+516,[#1]-C=C-[#1],Simple SMARTS Patterns
+517,N-N-C-N,Simple SMARTS Patterns
+518,O=C-N-N,Simple SMARTS Patterns
+519,N=C-N-C,Simple SMARTS Patterns
+520,C=C-C:C,Simple SMARTS Patterns
+521,C:N-C-[#1],Simple SMARTS Patterns
+522,C-N-N-[#1],Simple SMARTS Patterns
+523,N:C:C-C,Simple SMARTS Patterns
+524,C-C=C-C,Simple SMARTS Patterns
+525,[As]-C:C-[#1],Simple SMARTS Patterns
+526,Cl-C:C-Cl,Simple SMARTS Patterns
+527,C:C:N-[#1],Simple SMARTS Patterns
+528,[#1]-N-C-[#1],Simple SMARTS Patterns
+529,Cl-C-C-Cl,Simple SMARTS Patterns
+530,N:C-C:C,Simple SMARTS Patterns
+531,S-C:C-C,Simple SMARTS Patterns
+532,S-C:C-[#1],Simple SMARTS Patterns
+533,S-C:C-N,Simple SMARTS Patterns
+534,S-C:C-O,Simple SMARTS Patterns
+535,O=C-C-C,Simple SMARTS Patterns
+536,O=C-C-N,Simple SMARTS Patterns
+537,O=C-C-O,Simple SMARTS Patterns
+538,N=C-C-C,Simple SMARTS Patterns
+539,N=C-C-[#1],Simple SMARTS Patterns
+540,C-N-C-[#1],Simple SMARTS Patterns
+541,O-C:C-C,Simple SMARTS Patterns
+542,O-C:C-[#1],Simple SMARTS Patterns
+543,O-C:C-N,Simple SMARTS Patterns
+544,O-C:C-O,Simple SMARTS Patterns
+545,N-C:C-C,Simple SMARTS Patterns
+546,N-C:C-[#1],Simple SMARTS Patterns
+547,N-C:C-N,Simple SMARTS Patterns
+548,O-C-C:C,Simple SMARTS Patterns
+549,N-C-C:C,Simple SMARTS Patterns
+550,Cl-C-C-C,Simple SMARTS Patterns
+551,Cl-C-C-O,Simple SMARTS Patterns
+552,C:C-C:C,Simple SMARTS Patterns
+553,O=C-C=C,Simple SMARTS Patterns
+554,Br-C-C-C,Simple SMARTS Patterns
+555,N=C-C=C,Simple SMARTS Patterns
+556,C=C-C-C,Simple SMARTS Patterns
+557,N:C-O-[#1],Simple SMARTS Patterns
+558,O=N-C:C,Simple SMARTS Patterns
+559,O-C-N-[#1],Simple SMARTS Patterns
+560,N-C-N-C,Simple SMARTS Patterns
+561,Cl-C-C=O,Simple SMARTS Patterns
+562,Br-C-C=O,Simple SMARTS Patterns
+563,O-C-O-C,Simple SMARTS Patterns
+564,C=C-C=C,Simple SMARTS Patterns
+565,C:C-O-C,Simple SMARTS Patterns
+566,O-C-C-N,Simple SMARTS Patterns
+567,O-C-C-O,Simple SMARTS Patterns
+568,N#C-C-C,Simple SMARTS Patterns
+569,N-C-C-N,Simple SMARTS Patterns
+570,C:C-C-C,Simple SMARTS Patterns
+571,[#1]-C-O-[#1],Simple SMARTS Patterns
+572,N:C:N:C,Simple SMARTS Patterns
+573,O-C-C=C,Simple SMARTS Patterns
+574,O-C-C:C-C,Simple SMARTS Patterns
+575,O-C-C:C-O,Simple SMARTS Patterns
+576,N=C-C:C-[#1],Simple SMARTS Patterns
+577,C:C-N-C:C,Simple SMARTS Patterns
+578,C-C:C-C:C,Simple SMARTS Patterns
+579,O=C-C-C-C,Simple SMARTS Patterns
+580,O=C-C-C-N,Simple SMARTS Patterns
+581,O=C-C-C-O,Simple SMARTS Patterns
+582,C-C-C-C-C,Simple SMARTS Patterns
+583,Cl-C:C-O-C,Simple SMARTS Patterns
+584,C:C-C=C-C,Simple SMARTS Patterns
+585,C-C:C-N-C,Simple SMARTS Patterns
+586,C-S-C-C-C,Simple SMARTS Patterns
+587,N-C:C-O-[#1],Simple SMARTS Patterns
+588,O=C-C-C=O,Simple SMARTS Patterns
+589,589 C-C:C-O-C,Simple SMARTS Patterns
+590,C-C:C-O-[#1],Simple SMARTS Patterns
+591,Cl-C-C-C-C,Simple SMARTS Patterns
+592,N-C-C-C-C,Simple SMARTS Patterns
+593,N-C-C-C-N,Simple SMARTS Patterns
+594,C-O-C-C=C,Simple SMARTS Patterns
+595,C:C-C-C-C,Simple SMARTS Patterns
+596,N=C-N-C-C,Simple SMARTS Patterns
+597,O=C-C-C:C,Simple SMARTS Patterns
+598,Cl-C:C:C-C,Simple SMARTS Patterns
+599,[#1]-C-C=C-[#1],Simple SMARTS Patterns
+600,N-C:C:C-C,Simple SMARTS Patterns
+601,N-C:C:C-N,Simple SMARTS Patterns
+602,O=C-C-N-C,Simple SMARTS Patterns
+603,C-C:C:C-C,Simple SMARTS Patterns
+604,C-O-C-C:C,Simple SMARTS Patterns
+605,O=C-C-O-C,Simple SMARTS Patterns
+606,O-C:C-C-C,Simple SMARTS Patterns
+607,N-C-C-C:C,Simple SMARTS Patterns
+608,C-C-C-C:C,Simple SMARTS Patterns
+609,Cl-C-C-N-C,Simple SMARTS Patterns
+610,C-O-C-O-C,Simple SMARTS Patterns
+611,N-C-C-N-C,Simple SMARTS Patterns
+612,N-C-O-C-C,Simple SMARTS Patterns
+613,C-N-C-C-C,Simple SMARTS Patterns
+614,C-C-O-C-C,Simple SMARTS Patterns
+615,N-C-C-O-C,Simple SMARTS Patterns
+616,C:C:N:N:C,Simple SMARTS Patterns
+617,C-C-C-O-[#1],Simple SMARTS Patterns
+618,C:C-C-C:C,Simple SMARTS Patterns
+619,O-C-C=C-C,Simple SMARTS Patterns
+620,C:C-O-C-C,Simple SMARTS Patterns
+621,N-C:C:C:N,Simple SMARTS Patterns
+622,O=C-O-C:C,Simple SMARTS Patterns
+623,O=C-C:C-C,Simple SMARTS Patterns
+624,O=C-C:C-N,Simple SMARTS Patterns
+625,O=C-C:C-O,Simple SMARTS Patterns
+626,C-O-C:C-C,Simple SMARTS Patterns
+627,O=[As]-C:C:C,Simple SMARTS Patterns
+628,C-N-C-C:C,Simple SMARTS Patterns
+629,S-C:C:C-N,Simple SMARTS Patterns
+630,O-C:C-O-C,Simple SMARTS Patterns
+631,O-C:C-O-[#1],Simple SMARTS Patterns
+632,C-C-O-C:C,Simple SMARTS Patterns
+633,N-C-C:C-C,Simple SMARTS Patterns
+634,C-C-C:C-C,Simple SMARTS Patterns
+635,N-N-C-N-[#1],Simple SMARTS Patterns
+636,C-N-C-N-C,Simple SMARTS Patterns
+637,O-C-C-C-C,Simple SMARTS Patterns
+638,O-C-C-C-N,Simple SMARTS Patterns
+639,O-C-C-C-O,Simple SMARTS Patterns
+640,C=C-C-C-C,Simple SMARTS Patterns
+641,O-C-C-C=C,Simple SMARTS Patterns
+642,O-C-C-C=O,Simple SMARTS Patterns
+643,[#1]-C-C-N-[#1],Simple SMARTS Patterns
+644,C-C=N-N-C,Simple SMARTS Patterns
+645,O=C-N-C-C,Simple SMARTS Patterns
+646,O=C-N-C-[#1],Simple SMARTS Patterns
+647,O=C-N-C-N,Simple SMARTS Patterns
+648,O=N-C:C-N,Simple SMARTS Patterns
+649,O=N-C:C-O,Simple SMARTS Patterns
+650,O=C-N-C=O,Simple SMARTS Patterns
+651,O-C:C:C-C,Simple SMARTS Patterns
+652,O-C:C:C-N,Simple SMARTS Patterns
+653,O-C:C:C-O,Simple SMARTS Patterns
+654,N-C-N-C-C,Simple SMARTS Patterns
+655,O-C-C-C:C,Simple SMARTS Patterns
+656,C-C-N-C-C,Simple SMARTS Patterns
+657,C-N-C:C-C,Simple SMARTS Patterns
+658,C-C-S-C-C,Simple SMARTS Patterns
+659,O-C-C-N-C,Simple SMARTS Patterns
+660,C-C=C-C-C,Simple SMARTS Patterns
+661,O-C-O-C-C,Simple SMARTS Patterns
+662,O-C-C-O-C,Simple SMARTS Patterns
+663,O-C-C-O-[#1],Simple SMARTS Patterns
+664,C-C=C-C=C,Simple SMARTS Patterns
+665,N-C:C-C-C,Simple SMARTS Patterns
+666,C=C-C-O-C,Simple SMARTS Patterns
+667,C=C-C-O-[#1],Simple SMARTS Patterns
+668,C-C:C-C-C,Simple SMARTS Patterns
+669,Cl-C:C-C=O,Simple SMARTS Patterns
+670,Br-C:C:C-C,Simple SMARTS Patterns
+671,O=C-C=C-C,Simple SMARTS Patterns
+672,O=C-C=C-[#1],Simple SMARTS Patterns
+673,O=C-C=C-N,Simple SMARTS Patterns
+674,N-C-N-C:C,Simple SMARTS Patterns
+675,Br-C-C-C:C,Simple SMARTS Patterns
+676,N#C-C-C-C,Simple SMARTS Patterns
+677,C-C=C-C:C,Simple SMARTS Patterns
+678,C-C-C=C-C,Simple SMARTS Patterns
+679,C-C-C-C-C-C,Simple SMARTS Patterns
+680,O-C-C-C-C-C,Simple SMARTS Patterns
+681,O-C-C-C-C-O,Simple SMARTS Patterns
+682,O-C-C-C-C-N,Simple SMARTS Patterns
+683,N-C-C-C-C-C,Simple SMARTS Patterns
+684,O=C-C-C-C-C,Simple SMARTS Patterns
+685,O=C-C-C-C-N,Simple SMARTS Patterns
+686,O=C-C-C-C-O,Simple SMARTS Patterns
+687,O=C-C-C-C,Simple SMARTS Patterns
+688,C-C-C-C-C-C-C,Simple SMARTS Patterns
+689,O-C-C-C-C-C-C,Simple SMARTS Patterns
+690,O-C-C-C-C-C-O,Simple SMARTS Patterns
+691,O-C-C-C-C-C-N,Simple SMARTS Patterns
+692,O=C-C-C-C-C-C,Simple SMARTS Patterns
+693,O=C-C-C-C-C-O,Simple SMARTS Patterns
+694,O=C-C-C-C-C=O,Simple SMARTS Patterns
+695,O=C-C-C-C-C-N,Simple SMARTS Patterns
+696,C-C-C-C-C-C-C-C,Simple SMARTS Patterns
+697,C-C-C-C-C-C(C)-C,Simple SMARTS Patterns
+698,O-C-C-C-C-C-C-C,Simple SMARTS Patterns
+699,O-C-C-C-C-C(C)-C,Simple SMARTS Patterns
+700,O-C-C-C-C-C-O-C,Simple SMARTS Patterns
+701,O-C-C-C-C-C(O)-C,Simple SMARTS Patterns
+702,O-C-C-C-C-C-N-C,Simple SMARTS Patterns
+703,O-C-C-C-C-C(N)-C,Simple SMARTS Patterns
+704,O=C-C-C-C-C-C-C,Simple SMARTS Patterns
+705,O=C-C-C-C-C(O)-C,Simple SMARTS Patterns
+706,O=C-C-C-C-C(=O)-C,Simple SMARTS Patterns
+707,O=C-C-C-C-C(N)-C,Simple SMARTS Patterns
+708,C-C(C)-C-C,Simple SMARTS Patterns
+709,C-C(C)-C-C-C,Simple SMARTS Patterns
+710,C-C-C(C)-C-C,Simple SMARTS Patterns
+711,C-C(C)(C)-C-C,Simple SMARTS Patterns
+712,C-C(C)-C(C)-C,Simple SMARTS Patterns
+713,Cc1ccc(C)cc1,Complex SMARTS Patterns
+714,Cc1ccc(O)cc1,Complex SMARTS Patterns
+715,Cc1ccc(S)cc1,Complex SMARTS Patterns
+716,Cc1ccc(N)cc1,Complex SMARTS Patterns
+717,Cc1ccc(Cl)cc1,Complex SMARTS Patterns
+718,Cc1ccc(Br)cc1,Complex SMARTS Patterns
+719,Oc1ccc(O)cc1,Complex SMARTS Patterns
+720,Oc1ccc(S)cc1,Complex SMARTS Patterns
+721,Oc1ccc(N)cc1,Complex SMARTS Patterns
+722,Oc1ccc(Cl)cc1,Complex SMARTS Patterns
+723,Oc1ccc(Br)cc1,Complex SMARTS Patterns
+724,Sc1ccc(S)cc1,Complex SMARTS Patterns
+725,Sc1ccc(N)cc1,Complex SMARTS Patterns
+726,Sc1ccc(Cl)cc1,Complex SMARTS Patterns
+727,Sc1ccc(Br)cc1,Complex SMARTS Patterns
+728,Nc1ccc(N)cc1,Complex SMARTS Patterns
+729,Nc1ccc(Cl)cc1,Complex SMARTS Patterns
+730,Nc1ccc(Br)cc1,Complex SMARTS Patterns
+731,Clc1ccc(Cl)cc1,Complex SMARTS Patterns
+732,Clc1ccc(Br)cc1,Complex SMARTS Patterns
+733,Brc1ccc(Br)cc1,Complex SMARTS Patterns
+734,Cc1cc(C)ccc1,Complex SMARTS Patterns
+735,Cc1cc(O)ccc1,Complex SMARTS Patterns
+736,Cc1cc(S)ccc1,Complex SMARTS Patterns
+737,Cc1cc(N)ccc1,Complex SMARTS Patterns
+738,Cc1cc(Cl)ccc1,Complex SMARTS Patterns
+739,Cc1cc(Br)ccc1,Complex SMARTS Patterns
+740,Oc1cc(O)ccc1,Complex SMARTS Patterns
+741,Oc1cc(S)ccc1,Complex SMARTS Patterns
+742,Oc1cc(N)ccc1,Complex SMARTS Patterns
+743,Oc1cc(Cl)ccc1,Complex SMARTS Patterns
+744,Oc1cc(Br)ccc1,Complex SMARTS Patterns
+745,Sc1cc(S)ccc1,Complex SMARTS Patterns
+746,Sc1cc(N)ccc1,Complex SMARTS Patterns
+747,Sc1cc(Cl)ccc1,Complex SMARTS Patterns
+748,Sc1cc(Br)ccc1,Complex SMARTS Patterns
+749,Nc1cc(N)ccc1,Complex SMARTS Patterns
+750,Nc1cc(Cl)ccc1,Complex SMARTS Patterns
+751,Nc1cc(Br)ccc1,Complex SMARTS Patterns
+752,Clc1cc(Cl)ccc1,Complex SMARTS Patterns
+753,Clc1cc(Br)ccc1,Complex SMARTS Patterns
+754,Brc1cc(Br)ccc1,Complex SMARTS Patterns
+755,Cc1c(C)cccc1,Complex SMARTS Patterns
+756,Cc1c(O)cccc1,Complex SMARTS Patterns
+757,Cc1c(S)cccc1,Complex SMARTS Patterns
+758,Cc1c(N)cccc1,Complex SMARTS Patterns
+759,Cc1c(Cl)cccc1,Complex SMARTS Patterns
+760,Cc1c(Br)cccc1,Complex SMARTS Patterns
+761,Oc1c(O)cccc1,Complex SMARTS Patterns
+762,Oc1c(S)cccc1,Complex SMARTS Patterns
+763,Oc1c(N)cccc1,Complex SMARTS Patterns
+764,Oc1c(Cl)cccc1,Complex SMARTS Patterns
+765,Oc1c(Br)cccc1,Complex SMARTS Patterns
+766,Sc1c(S)cccc1,Complex SMARTS Patterns
+767,Sc1c(N)cccc1,Complex SMARTS Patterns
+768,Sc1c(Cl)cccc1,Complex SMARTS Patterns
+769,Sc1c(Br)cccc1,Complex SMARTS Patterns
+770,Nc1c(N)cccc1,Complex SMARTS Patterns
+771,Nc1c(Cl)cccc1,Complex SMARTS Patterns
+772,Nc1c(Br)cccc1,Complex SMARTS Patterns
+773,Clc1c(Cl)cccc1,Complex SMARTS Patterns
+774,Clc1c(Br)cccc1,Complex SMARTS Patterns
+775,Brc1c(Br)cccc1,Complex SMARTS Patterns
+776,CC1CCC(C)CC1,Complex SMARTS Patterns
+777,CC1CCC(O)CC1,Complex SMARTS Patterns
+778,CC1CCC(S)CC1,Complex SMARTS Patterns
+779,CC1CCC(N)CC1,Complex SMARTS Patterns
+780,CC1CCC(Cl)CC1,Complex SMARTS Patterns
+781,CC1CCC(Br)CC1,Complex SMARTS Patterns
+782,OC1CCC(O)CC1,Complex SMARTS Patterns
+783,OC1CCC(S)CC1,Complex SMARTS Patterns
+784,OC1CCC(N)CC1,Complex SMARTS Patterns
+785,OC1CCC(Cl)CC1,Complex SMARTS Patterns
+786,OC1CCC(Br)CC1,Complex SMARTS Patterns
+787,SC1CCC(S)CC1,Complex SMARTS Patterns
+788,SC1CCC(N)CC1,Complex SMARTS Patterns
+789,SC1CCC(Cl)CC1,Complex SMARTS Patterns
+790,SC1CCC(Br)CC1,Complex SMARTS Patterns
+791,NC1CCC(N)CC1,Complex SMARTS Patterns
+792,NC1CCC(Cl)CC1,Complex SMARTS Patterns
+793,NC1CCC(Br)CC1,Complex SMARTS Patterns
+794,ClC1CCC(Cl)CC1,Complex SMARTS Patterns
+795,ClC1CCC(Br)CC1,Complex SMARTS Patterns
+796,BrC1CCC(Br)CC1,Complex SMARTS Patterns
+797,CC1CC(C)CCC1,Complex SMARTS Patterns
+798,CC1CC(O)CCC1,Complex SMARTS Patterns
+799,CC1CC(S)CCC1,Complex SMARTS Patterns
+800,CC1CC(N)CCC1,Complex SMARTS Patterns
+801,CC1CC(Cl)CCC1,Complex SMARTS Patterns
+802,CC1CC(Br)CCC1,Complex SMARTS Patterns
+803,OC1CC(O)CCC1,Complex SMARTS Patterns
+804,OC1CC(S)CCC1,Complex SMARTS Patterns
+805,OC1CC(N)CCC1,Complex SMARTS Patterns
+806,OC1CC(Cl)CCC1,Complex SMARTS Patterns
+807,OC1CC(Br)CCC1,Complex SMARTS Patterns
+808,SC1CC(S)CCC1,Complex SMARTS Patterns
+809,SC1CC(N)CCC1,Complex SMARTS Patterns
+810,SC1CC(Cl)CCC1,Complex SMARTS Patterns
+811,SC1CC(Br)CCC1,Complex SMARTS Patterns
+812,NC1CC(N)CCC1,Complex SMARTS Patterns
+813,NC1CC(Cl)CCC1,Complex SMARTS Patterns
+814,NC1CC(Br)CCC1,Complex SMARTS Patterns
+815,ClC1CC(Cl)CCC1,Complex SMARTS Patterns
+816,ClC1CC(Br)CCC1,Complex SMARTS Patterns
+817,BrC1CC(Br)CCC1,Complex SMARTS Patterns
+818,CC1C(C)CCCC1,Complex SMARTS Patterns
+819,CC1C(O)CCCC1,Complex SMARTS Patterns
+820,CC1C(S)CCCC1,Complex SMARTS Patterns
+821,CC1C(N)CCCC1,Complex SMARTS Patterns
+822,CC1C(Cl)CCCC1,Complex SMARTS Patterns
+823,CC1C(Br)CCCC1,Complex SMARTS Patterns
+824,OC1C(O)CCCC1,Complex SMARTS Patterns
+825,OC1C(S)CCCC1,Complex SMARTS Patterns
+826,OC1C(N)CCCC1,Complex SMARTS Patterns
+827,OC1C(Cl)CCCC1,Complex SMARTS Patterns
+828,OC1C(Br)CCCC1,Complex SMARTS Patterns
+829,SC1C(S)CCCC1,Complex SMARTS Patterns
+830,SC1C(N)CCCC1,Complex SMARTS Patterns
+831,SC1C(Cl)CCCC1,Complex SMARTS Patterns
+832,SC1C(Br)CCCC1,Complex SMARTS Patterns
+833,NC1C(N)CCCC1,Complex SMARTS Patterns
+834,NC1C(Cl)CCCC1,Complex SMARTS Patterns
+835,NC1C(Br)CCCC1,Complex SMARTS Patterns
+836,ClC1C(Cl)CCCC1,Complex SMARTS Patterns
+837,ClC1C(Br)CCCC1,Complex SMARTS Patterns
+838,BrC1C(Br)CCCC1,Complex SMARTS Patterns
+839,CC1CC(C)CC1,Complex SMARTS Patterns
+840,CC1CC(O)CC1,Complex SMARTS Patterns
+841,CC1CC(S)CC1,Complex SMARTS Patterns
+842,CC1CC(N)CC1,Complex SMARTS Patterns
+843,CC1CC(Cl)CC1,Complex SMARTS Patterns
+844,CC1CC(Br)CC1,Complex SMARTS Patterns
+845,OC1CC(O)CC1,Complex SMARTS Patterns
+846,OC1CC(S)CC1,Complex SMARTS Patterns
+847,OC1CC(N)CC1,Complex SMARTS Patterns
+848,OC1CC(Cl)CC1,Complex SMARTS Patterns
+849,OC1CC(Br)CC1,Complex SMARTS Patterns
+850,SC1CC(S)CC1,Complex SMARTS Patterns
+851,SC1CC(N)CC1,Complex SMARTS Patterns
+852,SC1CC(Cl)CC1,Complex SMARTS Patterns
+853,SC1CC(Br)CC1,Complex SMARTS Patterns
+854,NC1CC(N)CC1,Complex SMARTS Patterns
+855,NC1CC(Cl)CC1,Complex SMARTS Patterns
+856,NC1CC(Br)CC1,Complex SMARTS Patterns
+857,ClC1CC(Cl)CC1,Complex SMARTS Patterns
+858,ClC1CC(Br)CC1,Complex SMARTS Patterns
+859,BrC1CC(Br)CC1,Complex SMARTS Patterns
+860,CC1C(C)CCC1,Complex SMARTS Patterns
+861,CC1C(O)CCC1,Complex SMARTS Patterns
+862,CC1C(S)CCC1,Complex SMARTS Patterns
+863,CC1C(N)CCC1,Complex SMARTS Patterns
+864,CC1C(Cl)CCC1,Complex SMARTS Patterns
+865,CC1C(Br)CCC1,Complex SMARTS Patterns
+866,OC1C(O)CCC1,Complex SMARTS Patterns
+867,OC1C(S)CCC1,Complex SMARTS Patterns
+868,OC1C(N)CCC1,Complex SMARTS Patterns
+869,OC1C(Cl)CCC1,Complex SMARTS Patterns
+870,OC1C(Br)CCC1,Complex SMARTS Patterns
+871,SC1C(S)CCC1,Complex SMARTS Patterns
+872,SC1C(N)CCC1,Complex SMARTS Patterns
+873,SC1C(Cl)CCC1,Complex SMARTS Patterns
+874,SC1C(Br)CCC1,Complex SMARTS Patterns
+875,NC1C(N)CCC1,Complex SMARTS Patterns
+876,NC1C(Cl)CCC1,Complex SMARTS Patterns
+877,NC1C(Br)CCC1,Complex SMARTS Patterns
+878,ClC1C(Cl)CCC1,Complex SMARTS Patterns
+879,ClC1C(Br)CCC1,Complex SMARTS Patterns
+880,BrC1C(Br)CCC1,Complex SMARTS Patterns
